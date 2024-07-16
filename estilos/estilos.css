@@ -1,0 +1,77 @@
+.checking {
+display: none;
+}
+.checking-visible {
+  display: block;
+  scale: 1.5;
+}
+
+.comienzo, .act1, .act2, .act3, .visualizar {
+  display: none;
+}
+
+.comienzo-visible {
+  display: block;
+  font-family: 'raster';
+  font-size: 20px;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.45);
+}
+
+.act1-visible, .act2-visible, .act3-visible, .visualizar-visible {
+  display: block;
+  font-family: 'raster';
+  font-size: 20px;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.45);
+  background-color: rgb(199, 242, 255);
+  border-color: rgb(108, 235, 26);
+}
+
+
+
+.masinfo {
+  display: none;
+}
+
+.masinfo-visible {
+  display: block;
+  font-family: 'raster';
+  font-size: 26px;
+  padding: 7px 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(90, 0, 0, 0.0);
+  border-style: dashed;
+}
+
+.disabled {
+  opacity: 0.5;  /* Reducir la opacidad para indicar que está deshabilitado */
+  cursor: default;  /* Cambiar el cursor a default para indicar que no es interactivo */
+  pointer-events: none;  /* Evita que el botón responda*/
+  font-family: 'raster';
+  font-size: 20px;
+  padding: 10px 20px;
+  }
+  
+.ventana1,  .ventana2, .ventana3, .ventana4, .ventana5,  .ventana6, .aviso{
+  display: none;
+  }
+  
+.ventana1-visible, .ventana2-visible , .ventana3-visible , .ventana4-visible , .ventana5-visible, .ventana6-visible, .aviso-visible{
+  display: block; 
+  font-family: 'raster';
+  text-align: center;
+  }
+  
+
+
+
+.checkAct1, .checkAct2, .checkAct3, .checkUsuarios1, .checkUsuarios2, .checkUsuarios3 {
+  display: none;
+  }
+    
+.checkAct1-visible, .checkAct2-visible , .checkAct3-visible, .checkUsuarios1-visible, .checkUsuarios2-visible, .checkUsuarios3-visible {
+  display: block;  
+  font-family: 'raster';
+  }
+
